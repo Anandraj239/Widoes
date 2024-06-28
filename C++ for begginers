@@ -1,0 +1,344 @@
+C++ codes for beginners:(only codes for using in apps like visualstudio, coder.. etc.)
+
+1st:
+#include <iostream>
+using named;
+
+int main() {
+    space st
+    cout << " My name Anand Raj and this code is learning from YT:- codewithharry ";
+
+    return 0;
+}
+
+2nd:
+#include<iostream>
+using namespace std;
+
+//this program was created by Anand Raj
+int main(){
+    int sum = 1;
+    cout<< "Hello world"<< sum;
+    return 0;
+}   
+
+3rd:
+#include<iostream>
+using namespace std;
+
+int glo =6;
+void sum(){
+    int a;
+    cout<<glo;
+   }
+
+int main(){
+    int glo=9;
+    glo=69;
+    // int a = 76;
+    // int b = 69;
+    int a=23, b=16;
+    float pi=3.14;
+    char c= 'a';
+    bool is_true = true;
+    sum();
+    cout<<glo<< is_true;
+    // cout<<"this is tutrioal 4.\n Here is the value of a is "<<a<<".\n he value of b is "<< b;
+    // cout<<"\n the value of pi is: "<<pi;
+    // cout<<"\n thr value of c is : "<<c;
+    return 0;
+}
+
+4th:
+# include<iostream>
+using namespace std;
+
+int main()
+{
+    int num1 , num2;
+    cout<<"Enter the value of num1:\n"; /* '<<' is called Insertion operator */
+    cin>>num1; /* '>>' is called Extraction operator */
+
+    cout<<"Enter the value num2:\n"; /* '<<' is called Instertion operator */
+    cin>>num2; /* '>>' is called Extraction operator */
+    
+    cout<<"The sum is "<<num1+num2;
+
+    return 0;
+}
+
+5th:
+#include<iostream>
+
+using namespace std;
+
+int main(){
+    int a=6, b=4;
+    cout<<"Operator in c++:"<<endl;
+    cout<<"Following are the types of operator in c++"<<endl;
+    // Arithmatic operators 
+    cout<<"The value of a + b is "<<a+b<<endl;
+    cout<<"The value of a - b is "<<a-b<<endl;
+    cout<<"The value of a * b is "<<a*b<<endl;
+    cout<<"The value of a / b is "<<a/b<<endl;
+    cout<<"The value of a % b is "<<a%b<<endl;
+    cout<<"The value of a++ is "<<a++<<endl;
+    cout<<"The value of a-- is "<<a--<<endl;
+    cout<<"The value of ++a is "<<--a<<endl;
+    cout<<"The value of --a is "<<--a<<endl;
+    cout<<endl;
+
+    // Assignment operators --> used to assign value to variables 
+    // int a =3, b =7;
+    // char d='d;
+    // Comparison operators
+    cout<<"Following are the comparison operators in c++"<<endl;
+    cout<<"The value of a == b is "<<(a==b)<<endl;   
+    cout<<"The value of a != b is "<<(a!=b)<<endl; 
+    cout<<"The value of a >= b is "<<(a>=b)<<endl; 
+    cout<<"The value of a <= b is "<<(a<=b)<<endl; 
+    cout<<"The value of a < b is "<<(a<b)<<endl; 
+    cout<<"The value of a > b is "<<(a>b)<<endl; 
+
+    // Logical operatoors 
+    cout<<"Following are the logical operatorsvin c++"<<endl;
+    cout<<"The value of this logical and operator ((a==b) & (a<b)) is :"<<((a==b) && (a<b))<<endl; 
+    cout<<"The value of this logical or operator ((a==b) || (a<b)) is :"<<((a==b) || (a<b))<<endl; 
+    cout<<"The value of this logical not operator (!(a==b) is :"<<(!(a<b))<<endl; 
+
+
+    return 0;
+}
+
+6th:
+#include<iostream>
+
+using namespace std;
+
+int c =30;
+int main(){
+
+// _______________Build in data types_______________
+// int a, b, c;
+// cout<<" Enter the value of a:"<<endl;
+// cin>>a;
+// cout<<"Enter the value of b:"<<endl;
+// cin>>b;
+// c = a + b;
+// cout<<"The sum is "<<c<<endl;
+// cout<<"The global c is "<<::c; 
+
+// _________________Float, double and long double literals_________________
+// float d=40.4F;
+// long double e =40.4L;
+// cout<<"The size of 40.4 is "<<sizeof(40.4)<<endl;
+// cout<<"The size of 40.4f is "<<sizeof(40.4f)<<endl;
+// cout<<"The size of 40.4F is "<<sizeof(40.4F)<<endl;
+// cout<<"The size of 40.4l is "<<sizeof(40.4l)<<endl;
+// cout<<"The size of 40.4L is "<<sizeof(40.4L)<<endl;
+// cout<<"The value of d is "<<d<<endl<<"The value of e is "<<e;
+// ________________Refernce variable______________
+// Anand------>gilli------->monste------->diego(Means one person but diff. names )
+// float x = 365;
+// float & y = x ;
+// cout<<x<<endl;
+// cout<<y<<endl;
+
+// ______________Typecasting_____________
+int a = 25;
+int b = 25.5;
+cout<<"The value of a is "<<(float)a<<endl;
+cout<<"The value of a is "<<float(a)<<endl;
+
+cout<<"The value of b is "<<(float)b<<endl;
+cout<<"The value of b is "<<float(b)<<endl;
+int c = int(b);
+
+cout<<"The expression is "<<a + b<<endl;
+cout<<"The expression is "<<a + int(b)<<endl;
+cout<<"The expression is "<<a + (int)b<<endl;
+
+return 0;
+}
+
+7th:
+#include<iostream>
+#include<iomanip>
+
+using namespace std;
+
+int main(){
+    // int a = 69;
+    // cout<<"The value of a is "<<a<<endl;
+    // a = 25;
+    // cout<<"The value of a was "<<a;
+
+    //_____Constants in c++_______
+    // const int g = 69;
+    // cout<<"The value g is: "<<g<<endl;
+    // g = 30; // Get an error bcz g is a constant  
+    // cout<<"The value of g is :"<<g<<endl;
+
+    //___Manipulators in c++_______
+    // int a=12, b=1234, c=123456;
+    // cout<<"The value of a without setw is: "<<a<<endl;
+    // cout<<"The value of b without setw is: "<<b<<endl;
+    // cout<<"The value of c without setw is: "<<c<<endl;
+
+    // cout<<"The value of a with setw is: "<<setw(6)<<a<<endl;
+    // cout<<"The value of b with setw is: "<<setw(6)<<b<<endl;
+    // cout<<"The value of c with setw is: "<<setw(6)<<c<<endl;
+
+    //_________Operator Precedence____________
+    int a = 3, b=4;
+    //int c = (a*5)+b  -> (Example)
+    int  c = ((((a*5)+b)-15)+30);
+    cout<<c;
+
+    return 0;
+}
+
+8th:
+#include<iostream>
+
+using namespace std;
+
+int main(){
+    int age;
+    cout<<"Tell me your age"<<endl;
+    cin>>age;
+
+    // 1. Selection control structure: If else-if else ladder
+    // if((age<18) && (age>0)){
+    //     cout<<"You cannot came to party"<<endl;
+    // }
+    // else if (age==18){
+    //     cout<<"you are a kid and you will get a kid pass to the party"<<endl;
+    // }
+    // else if (age<1){
+    //     cout<<"You are not yet born"<<endl;
+    // }
+    // else{
+    //     cout<<"You can come to the the party"<<endl;
+    //}
+
+    // 2.Selection control structure: switch case statements
+    switch (age)
+    {
+        case 2:
+        cout<<"You are 2"<<endl;
+        break;
+        case 18:
+        cout<<"You are 18"<<endl;
+        break;
+        case 24:
+        cout<<"You are 24"<<endl;
+        break;24
+        default:
+        cout<<"No special cases"<<endl;
+        break;
+    }
+    cout<<"Done with switch case";
+    return 0;
+}
+
+9th:
+#include<iostream>
+using namespace std;
+
+int main (){
+//_____Loops in c++
+//There are three types loops in c++:
+    // 1.For loop 
+    // 2.While loop
+    // 3.Do-while loop
+
+//*For loop in c++    
+// int i=1;
+// cout<<i;
+// i++;
+
+// syntax for forloop
+// for (initilization; condition; updation)
+//{
+//    loop body(c++code)
+
+//}
+// for (int i = 1; i<=50; i++)
+// {
+//     /*code */
+//     cout<<i<<endl;
+// }
+//Example of infinite forr loop (DON'T RUN)
+// for (int i=1; 40<=50; i++)
+// {
+//     /*code*/
+//     cout<<i<<endl;
+// }
+
+/*While loop in c++*/
+//syntax:
+//while (condition)
+// {
+//     c++statements;
+// }
+
+//Printing 1 to 50 using while loop 
+// int i =1;
+// while(i<=50)
+// {
+//     cout<<i<<endl;
+//     i++;
+// }
+
+//Example of infinite while loop 
+// int i = 1;
+// while (true)
+// {
+//     cout<<i<<endl;
+// }
+
+/*Do while loop in c++*/
+// symtax 
+//do
+//{
+//   c++ statements:
+//} While (conditons);
+
+//Printing 1 to 50 using while loop 
+// int i=1;
+// do{
+//     cout<<i<<endl;
+//     i++;
+// }while(false);
+
+return 0;
+}
+
+10th:
+#include<iostream>
+using namespace std;
+
+int main(){
+// for (int i = 0; i < 40; i++)
+// {
+//     /*code*/
+//     if(i==2){
+//         break;
+//     }
+//     cout<<i<<endl;
+// }
+for (int i = 0; i < 40; i++)
+{
+    /*code*/
+    if(i==2){
+        continue;
+    }
+    cout<<i<<endl;
+    
+}
+return 0;
+
+}
+Thats it. Now we start new things.
+
